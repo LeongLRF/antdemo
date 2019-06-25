@@ -1,15 +1,13 @@
 <template>
   <div class="index">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-2 sider">
-          <my-side></my-side>
-        </div>
-        <div class="col-md-10">
-          <div class="content"></div>
-        </div>
-      </div>
-    </div>
+    <a-layout>
+      <a-layout-sider :width="250" style="height: auto">
+        <my-side></my-side>
+      </a-layout-sider>
+      <a-layout-content>
+        <router-view></router-view>
+      </a-layout-content>
+    </a-layout>
   </div>
 </template>
 
