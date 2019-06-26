@@ -1,21 +1,10 @@
 <template>
   <div class="index">
     <a-layout>
-      <a-layout-sider
-        :width="250" style="height: auto"
-        :trigger="null"
-        collapsible
-        v-model="collapsed"
-        :collapsedWidth = 0
-      >
-        <my-side></my-side>
-      </a-layout-sider>
+     <a-layout-header style="background-color:#fff;">
+       <mynavbar></mynavbar>
+     </a-layout-header>
       <a-layout-content>
-        <a-icon
-          class="trigger"
-          :type="collapsed ? 'menu-unfold' : 'menu-fold'"
-          @click="()=> collapsed = !collapsed"
-        />
         <router-view></router-view>
       </a-layout-content>
     </a-layout>
@@ -23,11 +12,11 @@
 </template>
 
 <script>
-import mySide from '../components/mySider'
+import mynavbar from '@/components/mynavbar'
 export default {
   name: 'index',
   components: {
-    mySide
+    mynavbar
   },
   data () {
     return {
