@@ -5,7 +5,7 @@
         <div class="logo">logo</div>
         <div class="my-menu">
           <ul>
-            <li><a href="">Home</a></li>
+            <li><router-link :to="{name: 'welcome'}">Home</router-link></li>
             <li><a href="">Shop</a></li>
             <li><a href="">Clothes</a></li>
             <li><a href="">Contact</a></li>
@@ -14,18 +14,29 @@
         <div class="search">
           <input type="text" class="search_input">
           <img src="../assets/images/magnifying-glass.svg" style="position: absolute;
-    top: 24%; right: 40%" alt="">
+    top: 37%; right: 36%" alt="">
         </div>
-        <div class="my-toolbar">
+        <div class="my-toolbar pull-right">
           <ul>
             <li><a href=""><a-icon type="shopping" /></a></li>
             <li><a href=""><a-icon type="star" /></a></li>
             <li><a href=""><a-icon type="user" /></a></li>
-            <li><a href=""><a-icon type="bars" /></a></li>
+            <li><a href="#" @click="showDrawer"><a-icon type="bars" /></a></li>
           </ul>
         </div>
       </div>
     </div>
+    <a-drawer
+      title="Basic Drawer"
+      placement="right"
+      :closable="false"
+      @close="onClose"
+      :visible="visible"
+    >
+      <p>Some contents...</p>
+      <p>Some contents...</p>
+      <p>Some contents...</p>
+    </a-drawer>
   </div>
 </template>
 
@@ -34,6 +45,15 @@ export default {
   name: 'mynavbar',
   data () {
     return {
+      visible: false
+    }
+  },
+  methods: {
+    showDrawer () {
+      this.visible = true
+    },
+    onClose () {
+      this.visible = false
     }
   }
 }
@@ -45,8 +65,9 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 120px;
+    height: 65px;
     background: #FFFFFF;
+    border-bottom: 1px solid #eee;
     z-index: 100;
     padding-left: 60px;
     padding-right: 64px;
@@ -76,6 +97,18 @@ export default {
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
   }
+  .my-toolbar ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
   .logo{
     font-size: 30px;
     font-weight: bold;
@@ -85,7 +118,7 @@ export default {
   }
   .search_input {
     width: 100%;
-    height: 43px;
+    height: 40px;
     background: #f9f5f5;
     border: none;
     outline: none;
