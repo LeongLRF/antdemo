@@ -6,7 +6,7 @@
     <div class="menu">
       <ul>
         <router-link :to="{name: 'welcome'}"><li class="menu-item">首页&nbsp;&nbsp;<i class="fa fa-angle-right"></i></li></router-link>
-        <router-link :to="{}"><li class="menu-item">商城&nbsp;&nbsp;<i class="fa fa-angle-right"></i></li></router-link>
+        <router-link :to="{}"><li class="menu-item"><a-icon type="shop" />&nbsp;商城&nbsp;&nbsp;<i class="fa fa-angle-right"></i></li></router-link>
         <router-link :to="{}"><li class="menu-item">关于我们&nbsp;&nbsp;<i class="fa fa-angle-right"></i></li></router-link>
         <router-link :to="{}"><li class="menu-item">联系我们&nbsp;&nbsp;<i class="fa fa-angle-right"></i></li></router-link>
       </ul>
@@ -161,6 +161,7 @@ export default {
     margin-left: 10px;
   }
 .menu > ul > a {
+  font-size: 16px;
   list-style-type:none;
   margin-bottom:  10px;
   transition: all 500ms ease;
