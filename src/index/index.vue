@@ -7,16 +7,21 @@
       <a-layout-content>
         <router-view></router-view>
       </a-layout-content>
+      <a-layout-footer>
+        <myfooter></myfooter>
+      </a-layout-footer>
     </a-layout>
   </div>
 </template>
 
 <script>
 import mynavbar from '@/components/mynavbar'
+import myfooter from '@/components/myfooter'
 export default {
   name: 'index',
   components: {
-    mynavbar
+    mynavbar,
+    myfooter
   },
   data () {
     return {
