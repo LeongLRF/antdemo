@@ -27,6 +27,9 @@ export default {
     return {
       collapsed: false
     }
+  },
+  mounted () {
+    this.$router.push('/welcome')
   }
 }
 </script>

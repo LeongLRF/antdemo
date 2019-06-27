@@ -5,7 +5,7 @@
     </div>
     <div class="footer-menu">
       <ul>
-        <li><router-link :to="{name: 'welcome'}">Home</router-link></li>
+        <li><router-link exact :to="{name: 'welcome'}">Home</router-link></li>
         <li><a href="">Shop</a></li>
         <li><a href="">Clothes</a></li>
         <li><a href="">Contact</a></li>
