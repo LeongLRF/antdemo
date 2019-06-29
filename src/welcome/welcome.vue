@@ -73,9 +73,9 @@
     </div>
     <div class="product">
       <div class="container">
-        <a-carousel :autoplay="true">
+        <a-carousel :autoplay="true" :dots="false">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 pro-div">
               <img src="../assets/images/product_9.jpg" alt="" width="100%">
               <div class="rating">
                 <a-rate v-model='rate'/>
@@ -409,6 +409,100 @@
         </div>
       </div>
     </div>
+    <div class="more-pro text-center">
+      <div class="more-title">
+        <h2>更多产品</h2>
+        <div class="g-button abutton">
+          <a href="">了解详情</a>
+        </div>
+      </div>
+      <div class="pro" style="margin-top: 80px">
+        <div class="container-fluid">
+          <a-carousel :autoplay="true" :dots="false">
+            <div class="row">
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+              </div>
+            </div>
+          </a-carousel>
+        </div>
+      </div>
+    </div>
     <div class="team text-center">
       <h1>OUR TEAM</h1>
     </div>
@@ -541,6 +635,7 @@ export default {
     margin-left: 40px;
     height: 200px;
     border-radius: 5px;
+    margin-bottom: 150px;
   }
   .product{
     margin-bottom: 100px;
@@ -566,5 +661,49 @@ export default {
     font-family: 'Lucida', serif;
     padding-top: 30px;
     padding-bottom: 20px;
+  }
+  .more-pro{
+    background-image: url("../assets/images/gallery.jpg");
+    height: 480px;
+    color: white;
+    padding-top: 30px;
+  }
+  .more-title{
+    margin-bottom: 20px;
+  }
+  .g-button a {
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+    line-height: 46px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .g-button a:hover {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2em;
+    line-height: 46px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  .abutton {
+    margin-left: 695px;
+    width: 142px;
+    height: 46px;
+    border-radius: 5px;
+    background: #937c6f;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
   }
 </style>
