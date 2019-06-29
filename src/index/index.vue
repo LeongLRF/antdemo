@@ -42,4 +42,7 @@ export default {
   .sider{
     position: absolute;
   }
+  body {
+    background-color: #fff;
+  }
 </style>

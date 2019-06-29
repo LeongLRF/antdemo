@@ -123,6 +123,7 @@ export default {
     border: none;
     outline: none;
     padding-left: 20px;
+    margin-bottom: 10px;
   }
   .search_button {
     position: absolute;
