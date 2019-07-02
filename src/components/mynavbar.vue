@@ -29,7 +29,7 @@
     <a-drawer
       title="Basic Drawer"
       placement="right"
-      :closable="false"
+      :closable="true"
       @close="onClose"
       :visible="visible"
     >
