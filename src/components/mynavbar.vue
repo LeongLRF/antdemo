@@ -6,7 +6,7 @@
         <div class="my-menu">
           <ul>
             <li><router-link :to="{name: 'welcome'}">Home</router-link></li>
-            <li><a href="">Shop</a></li>
+            <li><router-link :to="{name: 'shop'}">Shop</router-link></li>
             <li><a href="">Clothes</a></li>
             <li><a href="">Contact</a></li>
           </ul>

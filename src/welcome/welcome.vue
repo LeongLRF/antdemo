@@ -421,82 +421,82 @@
           <a-carousel :autoplay="true" :dots="false">
             <div class="row">
               <div class="col-md-2">
-                <img src="../assets/images/gallery_1.jpg" alt="" width="265px">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_2.jpg" alt="" width="265px">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_3.jpg" alt="" width="265px">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_5.jpg" alt="" width="265px">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_4.jpg" alt="" width="265px">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_6.jpg" alt="" width="265px">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-2">
-                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
-              </div>
-              <div class="col-md-2">
-                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
-              </div>
-              <div class="col-md-2">
-                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
-              </div>
-              <div class="col-md-2">
-                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
-              </div>
-              <div class="col-md-2">
-                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
-              </div>
-              <div class="col-md-2">
-                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="200px">
               </div>
             </div>
             <div class="row">
               <div class="col-md-2">
-                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="200px">
               </div>
             </div>
             <div class="row">
               <div class="col-md-2">
-                <img src="../assets/images/gallery_1.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_2.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_3.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_5.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_4.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="200px">
               </div>
               <div class="col-md-2">
-                <img src="../assets/images/gallery_6.jpg" alt="" width="100%">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="200px">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_1.jpg" alt="" width="200px">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_2.jpg" alt="" width="200px">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_3.jpg" alt="" width="200px">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_5.jpg" alt="" width="200px">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_4.jpg" alt="" width="200px">
+              </div>
+              <div class="col-md-2">
+                <img src="../assets/images/gallery_6.jpg" alt="" width="200px">
               </div>
             </div>
           </a-carousel>
